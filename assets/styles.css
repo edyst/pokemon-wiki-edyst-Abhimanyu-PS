@@ -518,6 +518,7 @@ td{
 .container5{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 input[type=email] {
     padding-top: 10px;
