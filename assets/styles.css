@@ -207,15 +207,18 @@ select:hover{
     font-size: 45px;
     color: black;
     text-align: center;
-    margin-bottom: 20px;
+}
+.statistics_section > .head5{
+    margin-bottom: 0px;
 }
 .container2{
     display:flex;
-    margin-left: 140px;
-    margin-right: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .div2{
     text-align: center;
+    max-width: 500px;
 }
 .div2_1{
     margin-right: 20px;
@@ -223,14 +226,16 @@ select:hover{
 .div2_2{
     margin-left: 20px;
 }
-.head6{
+.div2 > .head6{
     color: black;
     font-size: 30px;
     font-weight: 100;
+    margin-top: 20px;
 }
 .para3{
     color: black;
     font-size: 14px;
+    margin-top: 20px;
 }
 
 /* Pokemon of the year section (Section 5) */
@@ -743,20 +748,8 @@ input[type=submit]:hover{
         margin-bottom: 30px;
     }
 
-    /* Statistics Section (Section 4) */
-    .statistics_section{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .container2{
-        display: grid;
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .div2{
-        margin-top: 30px;
-    }
+    /* Statistics Section (Section 4) * Not req/
+
 
     /* Pokemon of the year section (section 5) */
     .div3{
