@@ -291,7 +291,25 @@ select:hover{
 }
 
 /* Q and A section (Section 6) */
-
+.qna{
+    background-color:#4992ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px 40px 0px;
+}
+.qna > .head2{
+    padding-bottom: 0px;
+}
+#qna{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .head8{
     color: #fff;
     font-size:20px;
