@@ -248,6 +248,7 @@ select:hover{
 }
 .img2{
     max-width: 160px;
+    border-radius: 50%;
 }
 .img3{
     max-width: 160px;
