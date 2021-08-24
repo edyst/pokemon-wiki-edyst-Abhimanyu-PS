@@ -291,13 +291,7 @@ select:hover{
 }
 
 /* Q and A section (Section 6) */
-.qna{
-    background-color:#4992ca;
-    padding: 30px 140px 40px 140px;
-}
-.qna > .head2{
-    padding-bottom: 0px;
-}
+
 .head8{
     color: #fff;
     font-size:20px;
