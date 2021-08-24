@@ -183,10 +183,9 @@ select:hover{
     padding: 20px 20px 20px 20px;
 }
 .para1{
+    max-width: 1200px;
     color: #fff;
     text-align: center;
-    padding-left: 140px;
-    padding-right: 140px;
 }
 .container1{
     display: flex;
@@ -302,7 +301,7 @@ select:hover{
     padding-bottom: 0px;
 }
 #qna{
-    max-width: 1100px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -314,6 +313,7 @@ select:hover{
     color: #fff;
     font-size:20px;
     margin-bottom: 0px;
+    
 }
 .ulist{
     list-style: circle;
@@ -776,6 +776,10 @@ input[type=submit]:hover{
     .div1{
         margin-bottom: 30px;
     }
+    .para1{
+        padding-left: 10px;
+        padding-right:10px;
+    }
 
     /* Statistics Section (Section 4) * Not req/
 
@@ -850,4 +854,39 @@ input[type=submit]:hover{
 
     /* Footer (Section 17) {No Mediaquery req} */
 }
-/* FINISHED */
+
+@media only screen and (max-width: 400px){
+    .div3{
+        display:grid;
+        grid-template-columns: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subdiv1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .para4{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+
+    .div2{
+        text-align: center;
+        max-width: 350px;
+    }
+    .div2_1{
+        margin-right: 10px;
+    }
+    .div2_2{
+        margin-left: 10px;
+    }
+    .img1{
+        max-width:300px;
+    }
+}
