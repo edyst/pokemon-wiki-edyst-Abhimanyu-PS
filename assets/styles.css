@@ -148,6 +148,7 @@ select:hover{
 }
 
 .btn3{
+    display: flex;
     color:#424242;
     background-color: #fff;
     border-radius:15px;
@@ -156,13 +157,18 @@ select:hover{
     padding: 12px 31px 12px 31px;
     text-decoration: none;
     border: 2px solid #fff;
-    max-width: 420px;
+    max-width: 450px;
 }
 .btn3:hover{
     cursor: pointer;
     color: #fff;
     background-color: #0000;
     border: 2px solid #fff;
+}
+#paragraph_display{
+    color:inherit;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .btn4{
     color:inherit;
@@ -210,7 +216,6 @@ select:hover{
     font-size: 40px;
 }
 .head4{
-    margin-top: 15px;
     color: #fff;
     font-size: 30px;
     text-align: center;
@@ -374,7 +379,6 @@ td{
     padding-left: 7px;
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-right: 7px;
 }
 .para6{
     color: black;
@@ -874,7 +878,12 @@ input[type=submit]:hover{
     .navbar > ul{
         padding-left: 0px;
     }
-    
+    .btn3{
+        max-width: 100px;
+    }
+    #paragraph_display{
+        display: none;
+    }
     .div3{
         display:grid;
         grid-template-columns: auto;
